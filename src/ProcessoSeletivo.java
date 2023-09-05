@@ -1,5 +1,5 @@
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
+//import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
     public static void main(String[] args) {
@@ -33,9 +33,9 @@ public class ProcessoSeletivo {
     static boolean atender() {
             return new Random().nextInt(3)==1;
         }
-    }
+    
     //case 3
-    /*static void impressaoSelecionados() {
+    static void impressaoSelecionados() {
         String [] candidatos = {"Felipe","Marcia","Julia","Paulo","Augusto","Monica","Fabricio","Mirella","Daniela","Jorge"};
         System.out.println("Lista de Candidatos com índice do elemento");
         for (int indice = 0; indice < candidatos.length; indice++) {
